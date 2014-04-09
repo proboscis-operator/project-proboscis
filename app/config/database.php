@@ -55,11 +55,11 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'database',
+			'database'  => 'humektan',
 			'username'  => 'root',
-			'password'  => '',
+			'password'  => 'anton',
 			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
+			'collation' => 'latin1_swedish_ci',
 			'prefix'    => '',
 		),
 
