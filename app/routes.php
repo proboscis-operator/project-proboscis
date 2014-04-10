@@ -13,5 +13,14 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+  /**  $membershipApplication = new MembershipApplication(array(
+        'first_name' => 'Rick',
+        'last_name' => 'Hunt',
+        'phone_number' => '0504658741',
+        'email' => 'mike.hunt@coniel.com'
+    ));
+
+     $membershipApplication->save(); **/
+
+     $application = MembershipApplication::where('first_name', 'like','mike')->delete();    
 });

@@ -58,7 +58,7 @@ return array(
 			'database'  => 'humektan',
 			'username'  => 'root',
 			'password'  => 'anton',
-			'charset'   => 'utf8',
+			'charset'   => 'latin1',
 			'collation' => 'latin1_swedish_ci',
 			'prefix'    => '',
 		),
